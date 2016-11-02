@@ -37,7 +37,7 @@ for (let i = 0; i < 46; i++) {
     address: `London, Park Lane no. ${i}`,
   });
 }
-
+console.log('data',data);
 const App = React.createClass({
   getInitialState() {
     return {
